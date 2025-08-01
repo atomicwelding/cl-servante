@@ -1,6 +1,12 @@
 (defpackage #:cl-servante.math
   (:nicknames #:math)
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:iota
+	   #:factorial
+	   #:average
+	   #:average-list
+	   #:clamp))
+
 
 (in-package #:cl-servante.math)
 
