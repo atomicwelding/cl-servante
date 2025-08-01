@@ -5,4 +5,5 @@
   :version "0.1"
   :serial t
   :components ((:file "package")
-	       (:file "maths")))
+	       (:module "math"
+		:components ((:file "math")))))
