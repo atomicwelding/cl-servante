@@ -6,4 +6,6 @@
   :serial t
   :components ((:file "package")
 	       (:module "math"
-		:components ((:file "math")))))
+		:components ((:file "math")))
+	       (:module "gromacs"
+		:components ((:file "gromacs")))))
