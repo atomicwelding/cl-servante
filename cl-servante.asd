@@ -7,5 +7,7 @@
   :components ((:file "package")
 	       (:module "math"
 		:components ((:file "math")))
+	       (:module "string"
+		:components ((:file "string")))
 	       (:module "gromacs"
 		:components ((:file "gromacs")))))
